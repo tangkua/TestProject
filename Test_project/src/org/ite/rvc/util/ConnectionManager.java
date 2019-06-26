@@ -20,7 +20,6 @@ public class ConnectionManager {
 
         try {
             url = "jdbc:mysql://127.0.0.1:3306/RVCDB";
-            //user = "?user=webuser&password=12345678";
             user = "?user=root&password=";
             encoding = "&useUnicode=true&characterEncoding=UTF-8";
             Class.forName("com.mysql.jdbc.Driver");
